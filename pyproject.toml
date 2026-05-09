@@ -1,0 +1,15 @@
+[project]
+name = "syatlebflix"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "danielhenrique090109", email = "danielhenrique090109@gmail.com"},
+]
+dependencies = ["django>=6.0.5", "djangorestframework>=3.17.1", "python-decouple>=3.8", "drf-spectacular>=0.29.0"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
